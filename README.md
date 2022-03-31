@@ -12,7 +12,7 @@
 - Desenvolvido por @Danilo-Silverio.
 
 ### Link do Surge (Provisório)
-- https://amazing-opinion.surge.sh/
+- https://muddled-toys.surge.sh/
 
 
 ##
