@@ -1,0 +1,475 @@
+/*---------------------------------------HEADER (MOBILE)--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+    .home-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 15vh;
+      max-height: 15vh;
+      min-width: 100%;
+      padding: 1.3% 2% 1.3% 2%;
+      position: fixed;
+      background-color: #000;
+      top: 0;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .site-logo {
+      height: 3rem;
+    }
+    .nav-buttons{
+        display: flex;
+    }
+    .nav-btn {
+      display: none;
+    }
+    .nav-btn img{
+      display: none;
+    }
+    .nav-btn-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 5rem;
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .nav-menu-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 4rem;
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .nav-btn-mobile img {
+      height: 1.4rem;
+      margin-right: 6%;
+    }
+    .nav-menu-mobile img {
+      height: 1.4rem;
+      margin-right: 6%;
+    }
+  }
+/*---------------------------------------FIRST SECTION(MOBILE)--------------------------------------------------- */
+@media screen and (max-width: 767px) {
+    .first-section {
+      width: 100%;
+      min-width: 100%;
+      border: 1px solid transparent;
+      margin: 104px auto 0 auto;
+      min-height: 628px;
+      background-image: unset;
+      background-repeat: no-repeat;
+    }
+    .mobile-banner {
+      display: block;
+      width: 100vw;
+      min-height: 64.9vw;
+      background-image: url(../../../assets/images/background-mobile.png);
+      background-size: cover;
+    }
+    .text {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .text h1 {
+      font-size: 35px;
+      line-height: 38.4px;
+      width: 100%;
+      margin-bottom: 8%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 900;
+      color: #fff;
+    }
+    .slogan {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      line-height: 18px;
+      margin-top: 10%;
+      margin-bottom: 3.5%;
+      background: -webkit-linear-gradient(#0093dc, #00e7f9);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 900;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+    .slogan img {
+      margin-left: 0.5%;
+    }
+    .description {
+      width: 100%;
+      font-size: 17px;
+      line-height: 23.2px;
+      margin-bottom: 12%;
+      color: #fff;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 100;
+    }
+    .subscribe-button {
+      width: 100%;
+      padding: 15px 0 15px 0;
+      background-color: #00e7f9;
+      color: #000;
+      border: 1px solid #00e7f9;
+      display: block;
+      text-align: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 900;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+    }
+    .subscribe-button:hover {
+      color: #00e7f9;
+      background-color: transparent;
+      border: 2px solid #00e7f9;
+    }
+    .app-image {
+      display: none;
+    }
+    .subscribe-info {
+      font-size: 12px;
+      line-height: 17.4px;
+      text-align: center;
+      color: #86888d;
+      margin-top: 5%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-weight: 900;
+    }
+    .subscribe-info span {
+      color: #fff;
+    }
+    .next-section {
+      display: none;
+    }
+    .next-section img {
+      display: none;
+    }
+  }
+/*---------------------------------------HEADER (TABLET)--------------------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1008px) {
+    .home-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 15vh;
+      max-height: 15vh;
+      width: 100vw;
+      min-width: 100%;
+      padding: 1.3% 2% 1.3% 2%;
+      position: fixed;
+      background-color: #000;
+      top: 0;
+    }
+    .site-logo {
+      height: 3.9rem;
+    }
+    .nav-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 10rem;
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      background-color: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    .nav-btn img {
+      height: 1.4rem;
+      margin-right: 6%;
+    }
+    .nav-btn-mobile {
+      display: none;
+    }
+    .nav-menu-mobile {
+      display: none;
+    }
+    /*---------------------------------------MAIN--------------------------------------------------- */
+    .first-section {
+      height: 100vh;
+      width: 100%;
+      max-width: 100%;
+      border: 1px solid transparent;
+      margin-top: 15vh;
+      min-height: 573px;
+      background-image: url(../../../assets/images/background.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .mobile-banner {
+      display: none;
+    }
+    .text {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      margin-left: 3%;
+    }
+    .text h1 {
+      font-weight: 900;
+      font-size: 42px;
+      color: #fff;
+      line-height: 48px;
+      width: 55%;
+      margin-bottom: 2%;
+    }
+    .slogan {
+      display: flex;
+      align-items: center;
+      margin-top: 5%;
+      margin-bottom: 4%;
+      font-weight: 900;
+      font-size: 1rem;
+      line-height: 18px;
+      text-transform: uppercase;
+      background: -webkit-linear-gradient(#01a6e2, #01c2ec);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .slogan img {
+      margin-left: 0.5%;
+    }
+    .description {
+      width: 60%;
+      font-size: 1.1rem;
+      line-height: 23.2px;
+      margin-top: 3%;
+      margin-bottom: 4.5%;
+      color: #fff;
+      font-weight: 100;
+    }
+    .subscribe-button {
+      width: 20rem;
+      padding: 15px 0 15px 0;
+      background-color: #00e7f9;
+      color: #000;
+      border: 1px solid #00e7f9;
+      display: block;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.1s ease-in-out;
+    }
+    .subscribe-button:hover {
+      color: #00e7f9;
+      background-color: transparent;
+      border: 2px solid #00e7f9;
+    }
+    .subscribe-info {
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 25px;
+      color: #86888d;
+      display: block;
+      margin-top: 2%;
+    }
+    .subscribe-info span {
+      color: #fff;
+    }
+    .next-section {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: #fff;
+      background-color: transparent;
+      margin-top: 5%;
+      width: 10rem;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+    }
+    .next-section img {
+      margin-left: 5%;
+    }
+    .app-image {
+      position: absolute;
+      right: 40px;
+      top: 38vh;
+      width: 210px;
+      height: 450px;
+    }
+  }
+/*---------------------------------------HEADER (LAPTOP)--------------------------------------------------- */
+@media screen and (min-width: 1009px) and (max-width: 1110px) {
+  .home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    max-height: 15vh;
+    width: 100vw;
+    min-width: 100%;
+    padding: 1.3% 2% 1.3% 2%;
+    position: fixed;
+    background-color: #000;
+    top: 0;
+  }
+  .site-logo {
+    height: 3.9rem;
+  }
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .nav-btn img {
+    height: 1.4rem;
+    margin-right: 6%;
+  }
+  .nav-btn-mobile {
+    display: none;
+  }
+  .nav-menu-mobile {
+    display: none;
+  }
+  /*---------------------------------------MAIN--------------------------------------------------- */
+  .first-section {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid transparent;
+    margin-top: 15vh;
+    min-height: 573px;
+    background-image: url(../../../assets/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .mobile-banner {
+    display: none;
+  }
+  .text {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: 3%;
+  }
+  .text h1 {
+    font-weight: 900;
+    font-size: 42px;
+    color: #fff;
+    line-height: 48px;
+    width: 40%;
+    margin-bottom: 2%;
+  }
+  .slogan {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#01a6e2, #01c2ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .slogan img {
+    margin-left: 0.5%;
+  }
+  .description {
+    width: 50%;
+    font-size: 1.1rem;
+    line-height: 23.2px;
+    margin-top: 3%;
+    margin-bottom: 4.5%;
+    color: #fff;
+    font-weight: 100;
+  }
+  .subscribe-button {
+    width: 20rem;
+    padding: 15px 0 15px 0;
+    background-color: #00e7f9;
+    color: #000;
+    border: 1px solid #00e7f9;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+  .subscribe-button:hover {
+    color: #00e7f9;
+    background-color: transparent;
+    border: 2px solid #00e7f9;
+  }
+  .subscribe-info {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #86888d;
+    display: block;
+    margin-top: 2%;
+  }
+  .subscribe-info span {
+    color: #fff;
+  }
+  .next-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 5%;
+    width: 10rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+  }
+  .next-section img {
+    margin-left: 5%;
+  }
+  .app-image {
+    position: absolute;
+    right: 120px;
+    top: 42vh;
+    width: 260px;
+    height: 520px;
+  }
+}
+  

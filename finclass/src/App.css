@@ -1,0 +1,11 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+/* APP PRESETS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+};
