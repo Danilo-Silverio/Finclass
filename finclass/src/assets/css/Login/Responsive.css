@@ -1,0 +1,119 @@
+/*---------------------------------------LOGIN PAGE--------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .login-page-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+      height: 140vh;
+      background-image: url(../../../assets/images/background-login.png);
+      background-size: cover;
+  }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-height: 500px;
+      max-width: 384px;
+      text-align: left;
+      padding-top: 10%;
+    }
+    .form-container img {
+      height: 80px;
+      cursor: pointer;
+    }
+    .login-title {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: #fff;
+    }
+    .login-title p {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 3%;
+      text-transform: uppercase;
+    }
+    .login-title h1 {
+      font-size: 2.2rem;
+      text-align: center;
+      font-weight: 900;
+      line-height: 100%;
+      margin-bottom: 10%;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      width: 90%;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .login-form label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1%;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+    .login-form input {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+      color: #ffffff;
+      font-size: 1rem;
+      border: none;
+      background-color: #1d1f24;
+      border-radius: 6px;
+      padding: 15px 20px;
+      width: 100%;
+      height: 50px;
+      margin: 2% 0 7% 0;
+    }
+    .forgot-password{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 5%;
+      font-size: 1rem;
+      right: 0;
+      cursor: pointer;
+    }
+    .forgot-password img{
+        height: 1.1rem;
+        margin-left: 1.5%;
+    }
+    .btn-login{
+        width: 100%;
+        height: 40px;
+        border-radius: 6px;
+        border: 1px solid #494949;
+        background-color: #494949;
+        color: lightgrey;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .btn-login:hover{
+      background-color: #807878;
+    }
+    .register{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-weight: 700;
+    }
+    .btn-signup{
+      width: 100%;
+      height: 40px;
+      border-radius: 6px;
+      border: 2px solid #00e7f9;
+      background-color: transparent;
+      color: #00e7f9;
+      font-weight: 700;
+      cursor: pointer;
+      margin-bottom: 10%;
+    }
+  }
+  

@@ -1,0 +1,288 @@
+@media screen and (max-width: 768px) {
+    .register-page {
+      min-height: 100vh;
+      max-width: 100%;
+      background-image: url(../../../assets/images/background-signup.png);
+      background-size: cover;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .register-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 45px 0;
+      height: 12vh;
+      background-color: transparent;
+      max-width: 100%;
+      margin-bottom: 10%;
+    }
+    .register-header img {
+      height: 60px;
+    }
+    .login {
+      width: 190px;
+      margin-right: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      color: white;
+      border: 1px solid #64666b;
+      padding: 12px;
+      border-radius: 4px;
+      background-color: transparent;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .register-header button:hover {
+      background-color: rgba(255, 255, 255, 0.548);
+    }
+    /* -----------------------------------------CREATE USER--------------------------------------------------- */
+    .create-user {
+      display: flex;
+      flex-direction: column;
+      width: 90vw;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid #182127;
+      border-radius: 7px;
+      padding: 20px;
+      background-color: #101217;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      overflow: hidden;
+      margin-bottom: 30%;
+    }
+    .fieldset-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .fieldset-header img{
+      height: 2rem;
+      width: 1.5rem;
+      align-self: flex-start;
+      cursor: pointer;
+    }
+    .fieldset-header .step {
+      color: gray;
+      font-size: 14px;
+      font-weight: 900;
+      opacity: 90%;
+      margin-bottom: 10px;
+    }
+    
+    span {
+      color: #01e7f9;
+    }
+    .fieldset-header .informations {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .create-user label {
+      margin-top: 10px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .create-user input {
+      height: 50px;
+      width: 100%;
+      padding: 5px;
+      border-radius: 8px;
+      border: 1px solid #1f2226;
+      background-color: #1f2226;
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 7px;
+      padding-left: 5%;
+      cursor: auto;
+    }
+    .continue {
+      height: 50px;
+      width: 100%;
+      border-radius: 8px;
+      border: none;
+      margin-top: 25px;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 1px;
+      color: white;
+      background-color: #01e7f9;
+      cursor: pointer;
+    }
+    .continue:hover {
+      background-color: #84f2fa;
+    }
+    .btn-create-account{
+      width: 100%;
+      height: 50px;
+      border-radius: 6px;
+      border: 1px solid #494949;
+      background-color: #494949;
+      color: lightgrey;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 5%;
+      transition: all 0.3s all;
+    }
+    .btn-create-account:hover {
+      border: none;
+      background-color: #acabab;
+      color: #101217;
+    }
+    .checkbox {
+      font-size: 12px;
+      color: gray;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .register-page {
+      min-height: 100vh;
+      max-width: 100%;
+      background-image: url(../../../assets/images/background-signup.png);
+      background-size: cover;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+    .register-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 45px 0;
+      height: 12vh;
+      background-color: transparent;
+      max-width: 100%;
+      margin-bottom: 10%;
+    }
+    .register-header img {
+      height: 60px;
+    }
+    .login {
+      width: 190px;
+      margin-right: 10px;
+      font-weight: 600;
+      font-size: 16px;
+      color: white;
+      border: 1px solid #64666b;
+      padding: 12px;
+      border-radius: 4px;
+      background-color: transparent;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .register-header button:hover {
+      background-color: rgba(255, 255, 255, 0.548);
+    }
+    /* -----------------------------------------CREATE USER--------------------------------------------------- */
+    .create-user {
+      display: flex;
+      flex-direction: column;
+      width: 50vw;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid #182127;
+      border-radius: 7px;
+      padding: 20px;
+      background-color: #101217;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      overflow: hidden;
+      margin-bottom: 30%;
+    }
+    .fieldset-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .fieldset-header img{
+      height: 2rem;
+      width: 1.5rem;
+      align-self: flex-start;
+      cursor: pointer;
+    }
+    .fieldset-header .step {
+      color: gray;
+      font-size: 14px;
+      font-weight: 900;
+      opacity: 90%;
+      margin-bottom: 10px;
+    }
+    
+    span {
+      color: #01e7f9;
+    }
+    .fieldset-header .informations {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .create-user label {
+      margin-top: 10px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .create-user input {
+      height: 50px;
+      width: 100%;
+      padding: 5px;
+      border-radius: 8px;
+      border: 1px solid #1f2226;
+      background-color: #1f2226;
+      color: white;
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 7px;
+      padding-left: 5%;
+      cursor: auto;
+    }
+    .continue {
+      height: 50px;
+      width: 100%;
+      border-radius: 8px;
+      border: none;
+      margin-top: 25px;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 1px;
+      color: white;
+      background-color: #01e7f9;
+      cursor: pointer;
+    }
+    .continue:hover {
+      background-color: #84f2fa;
+    }
+    .btn-create-account{
+      width: 100%;
+      height: 50px;
+      border-radius: 6px;
+      border: 1px solid #494949;
+      background-color: #494949;
+      color: lightgrey;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 5%;
+      transition: all 0.3s all;
+    }
+    .btn-create-account:hover {
+      border: none;
+      background-color: #acabab;
+      color: #101217;
+    }
+    .checkbox {
+      font-size: 12px;
+      color: gray;
+    }
+  }
+  

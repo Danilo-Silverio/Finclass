@@ -1,0 +1,170 @@
+/*---------------------------------------HOME PAGE--------------------------------------------------- */
+.page-container {
+  height: 100vh;
+  width: 100%;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #010101;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #212328;
+}
+/*---------------------------------------HEADER--------------------------------------------------- */
+@media screen and (min-width: 1025px) {
+  .home-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    max-height: 15vh;
+    width: 100vw;
+    min-width: 100%;
+    padding: 1.3% 2% 1.3% 2%;
+    position: fixed;
+    background-color: #000;
+    top: 0;
+  }
+  .site-logo {
+    height: 3.9rem;
+  }
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 11rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  .nav-btn img {
+    height: 1.4rem;
+    margin-right: 6%;
+  }
+  .nav-btn-mobile {
+    display: none;
+  }
+  .nav-menu-mobile {
+    display: none;
+  }
+  /*---------------------------------------MAIN--------------------------------------------------- */
+  .first-section {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid transparent;
+    margin-top: 15vh;
+    min-height: 573px;
+    background-image: url(../../../assets/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .mobile-banner {
+    display: none;
+  }
+  .text {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: 3%;
+  }
+  .text h1 {
+    font-weight: 900;
+    font-size: 50px;
+    color: #fff;
+    line-height: 48px;
+    width: 40%;
+    margin-bottom: 2%;
+  }
+  .slogan {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 1.1rem;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#01a6e2, #01c2ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .slogan img {
+    margin-left: 0.5%;
+  }
+  .description {
+    width: 40%;
+    font-size: 1.1rem;
+    line-height: 23.2px;
+    margin-top: 3%;
+    margin-bottom: 4.5%;
+    color: #fff;
+    font-weight: 100;
+  }
+  .subscribe-button {
+    width: 20rem;
+    padding: 15px 0 15px 0;
+    background-color: #00e7f9;
+    color: #000;
+    border: 1px solid #00e7f9;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+  .subscribe-button:hover {
+    color: #00e7f9;
+    background-color: transparent;
+    border: 2px solid #00e7f9;
+  }
+  .subscribe-info {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #86888d;
+    display: block;
+    margin-top: 2%;
+  }
+  .subscribe-info span {
+    color: #fff;
+  }
+  .next-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    background-color: transparent;
+    margin-top: 5%;
+    width: 10rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+  }
+  .next-section img {
+    margin-left: 5%;
+  }
+  .app-image {
+    position: absolute;
+    right: 320px;
+    top: 42vh;
+    width: 260px;
+    height: 520px;
+  }
+}
+
