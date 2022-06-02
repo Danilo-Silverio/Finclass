@@ -1,5 +1,5 @@
 <img align="center"  height="100" width="200" src="https://user-images.githubusercontent.com/94642853/160838224-69f6a0a3-f8f8-4925-8229-cac407f70f8a.png"/>
-<p>Esse é um projeto inspirado na maior plataforma de educação financeira do mundo, o Finclass. Foi desenvolvido com a finalidade de aprender mais sobre desenvolvimento Front End utilizando nas ferramentas HTML, CSS, Javascript, React.js e Design UI/UX. O foco do nosso projeto é reproduzir um clone do site da Finclass de maneira fiel com Design e funcionalidades. (Projeto em andamento)
+<p>Esse é um projeto de Landing Page inspirado na maior plataforma de educação financeira do mundo, o Finclass. Foi desenvolvido com a finalidade de aprender mais sobre desenvolvimento Front End utilizando nas ferramentas HTML, CSS, Javascript, React.js e Design UI/UX.
 </div>
 
 ##
